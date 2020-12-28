@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:latest
 
 RUN apk add --no-cache avahi tini \
     && rm -r /etc/avahi/services/* \
